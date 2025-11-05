@@ -1,0 +1,49 @@
+h1{
+    color:chocolate;
+    font-size: 3.8rem;
+    font-family: "momo signature";
+}
+h3{
+    color:darkcyan; 
+}
+.text-pink{
+    color:darkmagenta
+}
+.text-background-bisque{
+    background-color: bisque;
+}
+body{
+    background-image: url("../assets/img/sample.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color:cornflowerblue;
+    font-family: "momo signature","Lucida Handwriting",cursive;
+}
+.text-para{
+    
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    background-color: rgba(202, 219, 46, 0.637);
+    padding: 20px 10px 20px 10px;
+    margin-left: 50px;
+
+
+}
+:root {
+    --primary-red: #f30a21;
+    --just-red:#f93f3f;
+}
+a:hover{
+    color: chartreuse;
+}
+a:visited{
+    color: blueviolet;
+}
+@media (max-width: 576px) {
+    body{
+    background-color: lightblue
+}
+}
