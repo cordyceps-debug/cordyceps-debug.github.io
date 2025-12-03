@@ -10,3 +10,7 @@ h1{
 img{
     padding: 15px;
 }
+
+.gallery-top-padding{
+    padding-top:10vh;
+}
