@@ -14,3 +14,14 @@ img{
 .gallery-top-padding{
     padding-top:10vh;
 }
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* vh stands for viewport height */
+}
+
+form {
+  width: 50%; /* adjust this value to control the form's width */
+}
