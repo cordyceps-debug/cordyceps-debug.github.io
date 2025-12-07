@@ -1,14 +1,32 @@
 p{
     padding: 15px;
+    color: #1d6954;
+    font-size: 18px;
 }
+
 h1{
     padding: 15px;
     text-align: center;
+    color: #1d6954;
+}
 
+.navbar-light {
+    background-color: #1d6954 !important;
+    border: none !important;
+    border-width:0!important;
+}
+
+.container {
+    color: #1d6954
+}
+
+.navbar .navbar-brand, .navbar .navbar-nav .nav-link {
+    color: white;
 }
 
 img{
     padding: 15px;
+    border-radius: 25px;
 }
 
 .gallery-top-padding{
@@ -19,9 +37,9 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* vh stands for viewport height */
+  min-height: 100vh;
 }
 
 form {
-  width: 50%; /* adjust this value to control the form's width */
+  width: 50%;
 }
