@@ -37,7 +37,7 @@ h2 {
     background-color: #c8f7c5;
 }
 
-/* personalizing navbar text colour*/
+/* personalizing navbar text colour and adding space between brand and links*/
 .navbar-brand {
     color: white;
     padding-right: 35px;
@@ -76,4 +76,8 @@ form {
   --bs-accordion-btn-focus-box-shadow: none;
   --bs-accordion-bg: #fffacd;
   --bs-accordion-color: #1d6954;
+}
+
+.centered-text {
+  text-align: center;
 }
