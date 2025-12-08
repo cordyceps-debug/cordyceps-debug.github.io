@@ -17,7 +17,8 @@ h1{
 }
 
 .container {
-    color: #1d6954
+    color: #1d6954;
+    background-color: #c8f7c5;
 }
 
 .navbar .navbar-brand, .navbar .navbar-nav .nav-link {
@@ -42,4 +43,13 @@ img{
 
 form {
   width: 50%;
+}
+
+.accordion {
+  --bs-accordion-btn-bg: #fffacd;
+  --bs-accordion-active-bg: #f5d76e;
+  --bs-accordion-active-colour: #1d6954;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-bg: #fffacd;
+  --bs-accordion-colour: #1d6954;
 }
