@@ -61,7 +61,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 form {
@@ -78,6 +78,7 @@ form {
   --bs-accordion-color: #1d6954;
 }
 
+/* Trying to get some p text centered in a particular div */
 .centered-text {
   text-align: center;
 }
